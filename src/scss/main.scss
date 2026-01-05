@@ -31,11 +31,13 @@ body {
   border-radius: 20px;
   background: #fff;
   box-shadow: 0 0 0 20px rgba(255, 254, 254, 0.15);
+  margin: 100px;
 }
 
 .player-track-title {
   color: #000;
   font-size: 18px;
+  text-align: center;
 }
 
 .player-track-artist,
@@ -54,4 +56,30 @@ body {
   align-items: center;
   border-radius: 37px;
   background: #e783bc;
+}
+
+.player-progress-bar,
+.player-progress-inner {
+  width: 283px;
+  height: 6px;
+  border-radius: 3px;
+  background: #f6f6ef;
+}
+
+.player-progress-inner {
+  background: #e783bc;
+}
+
+.player-progress {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.fa-solid {
+  font-size: 20px;
+}
+
+audio {
+  display: none;
 }
